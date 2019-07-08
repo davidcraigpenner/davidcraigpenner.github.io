@@ -89,9 +89,9 @@ plugins:
     - jemoji
 
 # Jekyll-Scholar
-#scholar:
+scholar:
 
-#  last_name: Einstein
+  last_name: Craig Penner
 
 #  style: apa
 #  locale: en

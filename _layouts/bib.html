@@ -16,7 +16,7 @@
     <span class="title">{{entry.title}}</span>
     <span class="author">
       {% for author in entry.author_array %}
-        {% if forloop.length == 1 %}
+        {% if forloop.length == 1 %}		
           {% if author.last == site.scholar.last_name %}
             <em>{{author.last}}, {{author.first}}</em>
           {% else %}

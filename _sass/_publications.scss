@@ -19,7 +19,8 @@
 .bibliography {
     margin-bottom: 50px;
     margin-top: 20px;
-    list-style-type: circle;
+	type: "1";
+    // list-style-type: none;
 
     li {
         margin: 10px 0;
@@ -85,4 +86,19 @@
 .star {
     color: $theme-color;
     font-style: normal;
+}
+.publication-links {
+  a {
+    color: $grey-color;
+    font-weight: bolder;
+    padding: 3px 6px 3px 6px;
+    border-radius: 5px;
+    border-color: #ddd;
+    background: #ddd;
+
+    &:hover {
+      color: $grey-color-dark;
+      text-decoration: none;
+    }
+  }
 }

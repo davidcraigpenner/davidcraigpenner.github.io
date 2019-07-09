@@ -1,6 +1,8 @@
 ---
 ---
 
+<!-- <meta charset="utf-8"/> -->
+
 {% if entry.abbr %}
   {% if site.data.venues[entry.abbr] %}
     <abbr>[<a href="{{site.data.venues[entry.abbr].url}}" target="_blank">{{entry.abbr}}</a>]</abbr>
@@ -60,7 +62,10 @@
     </span>
   {% endif %}
 
-  <span class="links">
+  <span class="publication-links">
+  {% if entry.bibtex %}
+    <a class="bibtex">bibTex</a>
+  {% endif %}
   {% if entry.abstract %}
     [<a class="abstract">Abs</a>]
   {% endif %}
@@ -91,6 +96,13 @@
   {% if entry.abstract %}
   <span class="abstract hidden">
     <p>{{ entry.abstract }}</p>
+  </span>
+  {% endif %}
+  
+  <!-- Hidden bibtex block -->
+  {% if entry.bibtex %}
+  <span class="bibtex hidden">
+    <p>{% highlight bibtex %}{{ entry.bibtex }}{% endhighlight %}</p>
   </span>
   {% endif %}
 </div>

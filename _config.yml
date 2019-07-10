@@ -10,20 +10,23 @@ footer_text: >
 #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 #Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-url: # the base hostname & protocol for your site
+url: https://www.davidcraigpenner.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: # leave blank if you don't want to display last updated
+last_updated: 2019-07-10 # leave blank if you don't want to display last updated
+
+encoding: utf-8
 
 # -----------------------------------------------------------------------------
 # Social integration
 # -----------------------------------------------------------------------------
-github_username: davidcraigpenner
-linkedin_username: davidcraigpenner
+github_username: davidcraigpenner # your GitHub username
+linkedin_username: davidcraigpenner # your LinkedIn username
 twitter_username: # your Twitter handle
 scholar_userid: # your Google Scholar ID
-orcid_id: # your ORCID ID
+orcid_id: 0000-0001-9234-9768 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
+researchgate_username: David_Craig_Penner # your ResearchGate username
 
 #contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
@@ -110,7 +113,11 @@ scholar:
   join_strings: true
   
   use_raw_bibtex_entry: false
-
+  bibtex_filters:
+    #- superscript
+    - latex
+    #- markdown
+  
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details

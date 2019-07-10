@@ -4,7 +4,7 @@
 name: David Craig Penner
 email: davidcraigpenner@gmail.com
 description: > # this means to ignore newlines until "url:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  David Craig Penner's personal website.
 footer_text: >
 #Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
 #Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
@@ -31,7 +31,7 @@ researchgate_username: David_Craig_Penner # your ResearchGate username
 #contact_note: >
 #  You can even add a little note about which of these is the best way to reach you.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: UA-143601888-1 # your google-analytics code
 
 # -----------------------------------------------------------------------------
 # Blog
@@ -118,6 +118,11 @@ scholar:
     - latex
     #- markdown
   
+  bibtex_skip_fields:
+    - abstract
+    - month_numeric
+    - pdf
+    
   details_dir: bibliography
   details_layout: bibtex.html
   details_link: Details

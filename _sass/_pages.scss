@@ -5,10 +5,40 @@
     font-size: 20px;
 }
 .contacticon {
-    display: block;
-    font-size: 60px;
+	display: block;
+    font-size: 50px;
     margin: 10px;
 }
-.center{
+.center {
     text-align: center;
+}
+.fa-envelope {
+  position: relative;
+  font-size: 50px;
+  top: 1px;
+}
+.ai-orcid {
+  position: relative;
+  font-size: 50px;
+  top: 3px;
+}
+.ai-google-scholar {
+  position: relative;
+  font-size: 50px;
+  top: 4px;
+}
+.fa-github {
+  position: relative;
+  font-size: 50px;
+  top: 2px;
+}
+.fa-linkedin-in {
+  position: relative;
+  font-size: 50px;
+  top: 0px;
+}
+.ai-researchgate-square {
+  position: relative;
+  font-size: 50px;
+  top: 4px;
 }

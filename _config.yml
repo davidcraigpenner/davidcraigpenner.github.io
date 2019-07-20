@@ -12,7 +12,7 @@ footer_text: >
 
 url: https://www.davidcraigpenner.com # the base hostname & protocol for your site
 baseurl: # the subpath of your site, e.g. /blog/
-last_updated: 2019-07-10 # leave blank if you don't want to display last updated
+last_updated: 2019-07-19 # leave blank if you don't want to display last updated
 
 encoding: utf-8
 
@@ -22,7 +22,7 @@ encoding: utf-8
 github_username: davidcraigpenner # your GitHub username
 linkedin_username: davidcraigpenner # your LinkedIn username
 twitter_username: # your Twitter handle
-scholar_userid: # your Google Scholar ID
+scholar_userid: Ix_acVAAAAAJ # your Google Scholar ID
 orcid_id: 0000-0001-9234-9768 # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username

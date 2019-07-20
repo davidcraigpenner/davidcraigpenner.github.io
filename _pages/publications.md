@@ -9,4 +9,3 @@ title: publications
 
 #### conference papers
 {% bibliography -q @inproceedings %}
- 

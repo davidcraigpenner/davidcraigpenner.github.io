@@ -4,8 +4,8 @@ permalink: /publications/
 title: publications
 ---
 
-#### journal papers
+#### journal articles
 {% bibliography -q @article %}
 
-#### conference papers
+#### conference proceedings
 {% bibliography -q @inproceedings %}

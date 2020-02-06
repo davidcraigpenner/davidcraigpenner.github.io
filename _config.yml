@@ -2,6 +2,7 @@
 # Site settings
 # -----------------------------------------------------------------------------
 name: David Craig Penner
+title: David Craig Penner
 email: davidcraigpenner@gmail.com
 description: > # this means to ignore newlines until "url:"
   David Craig Penner's personal website.

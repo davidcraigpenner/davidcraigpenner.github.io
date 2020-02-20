@@ -2,6 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
+order: 2
 ---
 
 #### journal articles

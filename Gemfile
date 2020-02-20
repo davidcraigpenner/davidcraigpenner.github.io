@@ -8,6 +8,7 @@ group :jekyll_plugins do
     gem 'jemoji'
     gem 'unicode_utils'
 	gem 'thread_safe', '0.3.6'
+	gem 'bibtex-ruby'
 end
 
 
